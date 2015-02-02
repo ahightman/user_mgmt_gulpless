@@ -1,1 +1,97 @@
-/* TODO: Style your site */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+
+.wrapper {
+  width: 70%;
+  margin-top: 2em;
+  margin-left: 5%;
+  border: 1px solid #7f8c8d;
+  transform: translate(10%, 0%)
+
+}
+
+.user-form-container {
+  display: block;
+  width: 100%
+}
+
+.user-form {
+  display: inline-block;
+  margin: auto;
+  background-color: #16a085;
+  width: 100%
+}
+
+.user-form div {
+  display: inline;
+  padding: .5em;
+  margin-left: 1em;
+}
+
+input {
+  font-family: inherit;
+  font-size: inherit;
+  display: inline-block;
+  border: none;
+  margin-top: .5em;
+  padding: .7em;
+  width: 20%;
+}
+
+.user-form button {
+  font-family: inherit;
+  font-size: 1.1em;
+  display: inline;
+  color: white;
+  background-color: #16a085;
+  text-shadow: none;
+  border: none;
+  cursor: pointer;
+  padding: 1em .5em;
+  outline: none;
+}
+
+.user-form button:hover {
+  background-color: #1abc9c;
+}
+
+.user-list-container {
+  display: table;
+  width: 100%;
+}
+
+.user-div {
+  display: table-row;
+  border: 1px solid #7f8c8d;
+  padding-top: 2em;
+  overflow: hidden;
+  font-family: inherit;
+  letter-spacing: .1em;
+}
+
+.column {
+  display: table-cell;
+  width: 43%;
+  font-size: 1em;
+  padding: 1em;
+}
+
+.delete-button, .edit-button{
+  font-family: inherit;
+  background-color: white;
+  font-size: .7em;
+  text-shadow: none;
+  align: right;
+  padding: 1em;
+  border: none;
+  cursor: pointer;
+  display: inline;
+  outline: none;
+  margin: .5em;
+  box-shadow:
+	2px 2px 2px rgba(0,0,0,0.5),
+	inset 0px 0px 5px rgba(255,255,255,0.75);
+}
